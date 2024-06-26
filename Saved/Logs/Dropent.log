@@ -1560,3 +1560,35 @@ Minimum required: 527.27
 [2024.06.26-09.56.02:408][925]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
 [2024.06.26-09.56.03:558][925]LogSlate: Took 0.000963 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2024.06.26-09.56.03:794][927]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-09.56.33:897][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.06.26-09.56.33:899][844]LogStall: Shutdown...
+[2024.06.26-09.56.33:903][844]LogStall: Shutdown complete.
+[2024.06.26-09.56.33:952][844]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-09.56.33:952][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-09.56.34:053][844]LogSlate: Window 'Dropent - Unreal Editor' being destroyed
+[2024.06.26-09.56.34:199][845]Cmd: QUIT_EDITOR
+[2024.06.26-09.56.34:199][845]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.06.26-09.56.34:217][845]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.06.26-09.56.34:218][845]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.06.26-09.56.34:218][845]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.06.26-09.56.34:225][845]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-09.56.34:225][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-09.56.34:227][845]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.06.26-09.56.34:249][845]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.06.26-09.56.35:135][845]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.06.26-09.56.35:136][845]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.06.26-09.56.35:136][845]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2024.06.26-09.56.35:136][845]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.06.26-09.56.35:140][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.06.26-09.56.35:144][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.06.26-09.56.35:155][845]LogAudio: Display: Audio Device Manager Shutdown
+[2024.06.26-09.56.35:156][845]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2024.06.26-09.56.35:167][845]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.06.26-09.56.35:168][845]LogExit: Preparing to exit.
+[2024.06.26-09.56.35:257][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.06.26-09.56.35:259][845]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.26-09.56.35:259][845]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.26-09.56.35:259][845]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.26-09.56.35:259][845]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.26-09.56.35:259][845]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.26-09.56.35:259][845]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
